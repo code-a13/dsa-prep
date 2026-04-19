@@ -1,11 +1,7 @@
 # 🧩 Pattern Printing 
 
-## 🔹 Pattern 1: Solid Square
-
-**Problem:**
-Given an integer `n`, print a square pattern of `*`.
-
 **Example (N = 5):**
+## 🔹 Pattern 1: Solid Square
 
 ```
 * * * * *
@@ -19,8 +15,6 @@ Given an integer `n`, print a square pattern of `*`.
 
 ## 🔹 Pattern 2: Right-Angled Triangle
 
-**Problem:**
-Print a right-angled triangle using `*`.
 
 ```
 *
