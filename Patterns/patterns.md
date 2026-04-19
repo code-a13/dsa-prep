@@ -1,11 +1,12 @@
-#  Pattern Printing 
+# 🧩 Pattern Printing 
 
+## 🔹 Pattern 1: Solid Square
 
-###  Pattern 1: Solid Square
-**Problem:**  
+**Problem:**
 Given an integer `n`, print a square pattern of `*`.
 
 **Example (N = 5):**
+
 ```
 * * * * *
 * * * * *
@@ -16,11 +17,11 @@ Given an integer `n`, print a square pattern of `*`.
 
 ---
 
-###  Pattern 2: Right-Angled Triangle
-**Problem:**  
-Given an integer `n`, print a right-angled triangle using `*`.
+## 🔹 Pattern 2: Right-Angled Triangle
 
-**Example (N = 5):**
+**Problem:**
+Print a right-angled triangle using `*`.
+
 ```
 *
 * *
@@ -31,11 +32,8 @@ Given an integer `n`, print a right-angled triangle using `*`.
 
 ---
 
-###  Pattern 3: Right-Angled Number Triangle
-**Problem:**  
-Given an integer `n`, print numbers incrementally per row.
+## 🔹 Pattern 3: Right-Angled Number Triangle
 
-**Example (N = 5):**
 ```
 1
 1 2
@@ -46,11 +44,8 @@ Given an integer `n`, print numbers incrementally per row.
 
 ---
 
-###  Pattern 4: Same Number Row Triangle
-**Problem:**  
-Each row contains the same number.
+## 🔹 Pattern 4: Same Number Row Triangle
 
-**Example (N = 5):**
 ```
 1
 2 2
@@ -61,11 +56,8 @@ Each row contains the same number.
 
 ---
 
-###  Pattern 5: Inverted Right-Angled Triangle
-**Problem:**  
-Print decreasing stars.
+## 🔹 Pattern 5: Inverted Right-Angled Triangle
 
-**Example (N = 5):**
 ```
 * * * * *
 * * * *
@@ -76,11 +68,8 @@ Print decreasing stars.
 
 ---
 
-###  Pattern 6: Inverted Number Triangle
-**Problem:**  
-Print decreasing number sequences.
+## 🔹 Pattern 6: Inverted Number Triangle
 
-**Example (N = 5):**
 ```
 1 2 3 4 5
 1 2 3 4
@@ -91,11 +80,8 @@ Print decreasing number sequences.
 
 ---
 
-###  Pattern 7: Full Star Pyramid
-**Problem:**  
-Print a centered pyramid.
+## 🔹 Pattern 7: Full Star Pyramid
 
-**Example (N = 5):**
 ```
     *
    ***
@@ -106,11 +92,8 @@ Print a centered pyramid.
 
 ---
 
-###  Pattern 8: Inverted Star Pyramid
-**Problem:**  
-Print inverted pyramid.
+## 🔹 Pattern 8: Inverted Star Pyramid
 
-**Example (N = 5):**
 ```
 *********
  *******
@@ -121,11 +104,8 @@ Print inverted pyramid.
 
 ---
 
-###  Pattern 9: Diamond Pattern
-**Problem:**  
-Combine pyramid + inverted pyramid.
+## 🔹 Pattern 9: Diamond Pattern
 
-**Example (N = 5):**
 ```
     *
    ***
@@ -141,11 +121,8 @@ Combine pyramid + inverted pyramid.
 
 ---
 
-### Pattern 10: Half Diamond Pattern
-**Problem:**  
-Print increasing then decreasing stars.
+## 🔹 Pattern 10: Half Diamond Pattern
 
-**Example (N = 5):**
 ```
 *
 **
@@ -157,3 +134,78 @@ Print increasing then decreasing stars.
 **
 *
 ```
+
+
+
+## 🔸 Pattern 11: Binary Triangle
+
+```
+1
+0 1
+1 0 1
+0 1 0 1
+1 0 1 0 1
+```
+
+---
+
+## 🔸 Pattern 12: Palindrome Number Pyramid
+
+```
+1        1
+12      21
+123    321
+1234  4321
+1234554321
+```
+
+---
+
+## 🔸 Pattern 13: Continuous Number Triangle
+
+```
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+```
+
+---
+
+## 🔸 Pattern 14: Alphabet Triangle
+
+```
+A
+AB
+ABC
+ABCD
+ABCDE
+```
+
+---
+
+## 🔸 Pattern 15: Inverted Alphabet Triangle
+
+```
+ABCDE
+ABCD
+ABC
+AB
+A
+```
+
+---
+
+## 🔸 Pattern 16: Repeated Alphabet Triangle
+
+```
+A
+BB
+CCC
+DDDD
+EEEEE
+```
+
+---
+

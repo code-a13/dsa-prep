@@ -1,4 +1,4 @@
-package Patterns;
+
 import java.util.Scanner;
 public class Pattern9 {
     public static void printPattern(int n) {
