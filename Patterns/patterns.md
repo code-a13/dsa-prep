@@ -202,4 +202,26 @@ EEEEE
 ```
 
 ---
+## 🔸 Pattern 17: Alphabet Pyramid
+
+```
+    A
+   ABA
+  ABCBA
+ ABCDCBA
+ABCDEDCBA
+
+```
+
+---
+## 🔸 Pattern 18: Reverse Alphabet Triangle
+```
+E 
+D E 
+C D E 
+B C D E 
+A B C D E
+```
+
+---
 
