@@ -12,6 +12,7 @@ public class Problem3 {
         }
         Problem3 p = new Problem3();
         System.out.println("The sum of the array elements is: " + p.arraySum(nums));
+        scanner.close();
     }
     public int arraySum(int[] nums) {
         return sum(nums, 0);
