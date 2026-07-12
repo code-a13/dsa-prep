@@ -1,6 +1,8 @@
 package Sorting;
+
 import java.util.Scanner;
-public class SelectionSort {
+
+public class InsertionSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");
@@ -10,29 +12,25 @@ public class SelectionSort {
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
-        int[] sortedNums = selectionSort(nums);
+        int[] sortedNums = insertionSort(nums);
         System.out.println("Sorted elements: ");
         for (int num : sortedNums) {
             System.out.print(num + " ");
         }
         sc.close();
     }
-    //Selectionsort works by choosing the minimum and then swapping it 
-    public  static int[] selectionSort(int[] nums) {
-    int n = nums.length ;
-    for (int i = 0; i < n - 1; i++) {
-      int min = i;
-      for (int j = i + 1; j < n; j++) {
-        if (nums[j] < nums[min]) {
-          min = j;
+    //Insertion Sort  takes an element and places it in the correct position
+    public  static int[] insertionSort(int[] nums) {
+
+        for(int i = 1;i<nums.length;i++){
+            int key = nums[i];
+            int j = i-1;
+            while(j>=0 && nums[j]>key){
+                nums[j+1]=nums[j];
+                j--;
+            }
+            nums[j + 1]=key;
         }
-      }
-      if (min != i) {
-          int temp = nums[i];
-          nums[i] = nums[min];
-          nums[min] = temp;
-        }
+        return nums;
     }
-    return nums;
-  }
 }
