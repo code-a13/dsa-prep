@@ -2,7 +2,7 @@ package Hashing;
 
 import java.util.Scanner;
 
-public class Problem2 {
+public class SecondFrequent {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
