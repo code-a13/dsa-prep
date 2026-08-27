@@ -1,8 +1,6 @@
-package Arrays;
-
+package Arrays.Basics;
 import java.util.Scanner;
-
-public class Problem9 {
+public class LargestElementO {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
@@ -12,18 +10,17 @@ public class Problem9 {
         for(int i = 0;i<n;i++){
             nums[i] = sc.nextInt();
         }
-        rotateArrayByOne(nums);
-        System.out.println("Result :");
-        for (int i = 0; i < nums.length; i++) {
-            System.out.print(nums[i]+" ");
-        }
+        int result = largestElement(nums);
+        System.out.println("The largest element in the array is: " + result);
         sc.close();
     }
-    public static void rotateArrayByOne(int[] nums) {
-        int temp = nums[0];
-        for(int i = 0;i<nums.length - 1 ;i++){
-            nums[i] = nums[i+1];
+    public static int largestElement(int[] nums) {
+        int largest = nums[0];
+        for(int i = 0;i<nums.length;i++){
+            if(nums[i]>largest){
+                largest = nums[i];
+            }
         }
-        nums[nums.length - 1]= temp;
+        return largest;
     }
 }

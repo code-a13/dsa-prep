@@ -1,6 +1,8 @@
-package Arrays;
+package Arrays.Basics;
+
+import java.util.Arrays;
 import java.util.Scanner;
-public class Problem6O{
+public class LargestElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
@@ -14,13 +16,9 @@ public class Problem6O{
         System.out.println("The largest element in the array is: " + result);
         sc.close();
     }
-    public static int largestElement(int[] nums) {
-        int largest = nums[0];
-        for(int i = 0;i<nums.length;i++){
-            if(nums[i]>largest){
-                largest = nums[i];
-            }
-        }
-        return largest;
+    public static  int largestElement(int[] nums) {
+        
+        Arrays.sort(nums);
+        return nums[nums.length-1];
     }
 }

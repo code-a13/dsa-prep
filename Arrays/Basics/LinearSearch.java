@@ -1,6 +1,6 @@
-package Arrays;
+package Arrays.Basics;
 import java.util.Scanner;
-public class Problem5 {
+public class LinearSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
