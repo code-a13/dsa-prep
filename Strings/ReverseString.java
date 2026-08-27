@@ -1,8 +1,9 @@
+package Strings;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-public class Problem1{
+public class ReverseString {
     public static void main(String[] args) {
         List<Character> s = new ArrayList<>();
         Scanner sc = new Scanner(System.in);

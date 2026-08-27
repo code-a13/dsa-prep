@@ -1,6 +1,8 @@
+package Strings;
+
 import java.util.Arrays;
 import java.util.Scanner;
-public class Problem7 {
+public class Anagram {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first string: ");

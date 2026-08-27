@@ -1,7 +1,8 @@
+package Strings;
 
 import java.util.Arrays;
 import java.util.Scanner;
-public class Problem4 {
+public class CommonPrefix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of strings: ");

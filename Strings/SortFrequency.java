@@ -1,13 +1,15 @@
+package Strings;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
-public class Problem8 {
+public class SortFrequency {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String: ");
         String input = sc.nextLine();
-        List<Character> sortedChars = new Problem8().frequencySort(input);
+        List<Character> sortedChars = new SortFrequency().frequencySort(input);
         for (char ch : sortedChars) {
             System.out.print(ch);
         }

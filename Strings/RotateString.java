@@ -1,5 +1,7 @@
+package Strings;
+
 import java.util.Scanner;
-public class Problem6 {
+public class RotateString {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first string: ");
