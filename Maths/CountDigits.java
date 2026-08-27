@@ -1,11 +1,11 @@
 package Maths;
 import java.util.Scanner;
-public class Bmaths1 {
+public class CountDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        Bmaths1 obj = new Bmaths1();
+        CountDigits obj = new CountDigits();
         int result = obj.countDigit(n);
         System.out.println("Number of digits in " + n + " is: " + result);
         sc.close();

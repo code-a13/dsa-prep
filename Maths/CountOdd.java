@@ -1,12 +1,12 @@
 package Maths;
 import java.util.Scanner;
 
-public class Bmaths2{
+public class CountOdd{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        Bmaths2 obj = new Bmaths2();
+        CountOdd obj = new CountOdd();
         int result = obj.countOddDigit(n);
         System.out.println("Number of odd digits in " + n + " is: " + result);
         sc.close();

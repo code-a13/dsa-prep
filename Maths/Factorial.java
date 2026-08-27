@@ -1,11 +1,11 @@
 package Maths;
 import java.util.Scanner;
-public class Bmaths6 {
+public class Factorial {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        Bmaths6 obj = new Bmaths6();
+        Factorial obj = new Factorial();
         int result = obj.factorial(n);
         System.out.println("Factorial of " + n + " is: " + result);
         sc.close();

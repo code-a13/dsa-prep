@@ -1,11 +1,11 @@
 package Maths;
 import java.util.Scanner;
-public class Bmaths7 {
+public class Armstrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        Bmaths7 obj = new Bmaths7();
+        Armstrong obj = new Armstrong();
         boolean result = obj.isArmstrong(n);
         if(result){
             System.out.println(n + " is an Armstrong number.");

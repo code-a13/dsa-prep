@@ -1,11 +1,11 @@
 package Maths;
 import java.util.Scanner;
-public class Bmaths4 {
+public class Palindrome {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        Bmaths4 obj = new Bmaths4();
+        Palindrome obj = new Palindrome();
         boolean result = obj.isPalindrome(n);
         if(result){
             System.out.println(n + " is a palindrome number.");

@@ -2,7 +2,7 @@ package Maths;
 
 import java.util.Scanner;
 
-public class Bmaths12 {
+public class LCM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first number");

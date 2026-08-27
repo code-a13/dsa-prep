@@ -2,12 +2,12 @@ package Maths;
 
 import java.util.Scanner;
 
-public class Bmaths5 {
+public class Largest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        Bmaths5 obj = new Bmaths5();
+        Largest obj = new Largest();
         int result = obj.largestDigit(n);
         System.out.println("Largest digit in " + n + " is: " + result);
         sc.close();
