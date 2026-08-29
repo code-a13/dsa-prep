@@ -1,6 +1,6 @@
 package Recursion;
 import java.util.Scanner;
-public class Problem3 {
+public class ArraySum {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
@@ -10,7 +10,7 @@ public class Problem3 {
         for (int i = 0; i < size; i++) {
             nums[i] = scanner.nextInt();
         }
-        Problem3 p = new Problem3();
+        ArraySum p = new ArraySum();
         System.out.println("The sum of the array elements is: " + p.arraySum(nums));
         scanner.close();
     }
